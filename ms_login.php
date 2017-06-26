@@ -19,7 +19,7 @@ if($password=="")
     if($password!=$pwd_again)
     {
         echo"两次输入的密码不一致,请重新输入！";
-        echo"<a href='index.php'>重新输入</a>";
+        echo"<a href='index.html'>重新输入</a>";
 
     }
     else
@@ -29,7 +29,7 @@ if($password=="")
         if(!$result)
         {
             echo"注册不成功！";
-            echo"<a href='index.php'>返回</a>";
+            echo"<a href='index.html'>返回</a>";
         }
 			else
         {
